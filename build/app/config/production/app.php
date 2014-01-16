@@ -12,5 +12,5 @@ return array(
 	 | error page is shown.
 	 |
 	 */
-	'debug' => false
+	'debug' => true
 );

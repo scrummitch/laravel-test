@@ -11,10 +11,11 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+// Index page for product enquirys
+Route::get('/', array('as' => 'index', 'uses' => 'IndexController@Index'));
+
+// Form Post for product enquiry
+Route::post('/enquire', array('as' => 'enquire', 'uses' => 'IndexController@enquire'));
 
 // These routes will be cached, if you configure a non-zero bladeCacheExpiry.
 // Full documentation at https://github.com/TheMonkeys/laravel-blade-cache-filter

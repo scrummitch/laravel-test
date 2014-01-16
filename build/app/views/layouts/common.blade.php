@@ -29,7 +29,7 @@
 
         <link rel="stylesheet" href="{{ Bust::url('/css/main.css') }}">
         <script src="{{ Bust::url('/js/vendor/modernizr-2.6.2.min.js') }}"></script>
-    
+
         @yield('head-append')
     </head>
     <body class="{{ preg_replace('/\s{2,}/', ' ', trim($__env->yieldContent('body-class'))) }}">
@@ -44,11 +44,11 @@
 
         @include('partials.footer')
 
-        @if (App::environment() === 'local')
+        <!--@if (App::environment() === 'local')
            <script data-main="{{ Bust::url('/js/main.js') }}" src="{{ Bust::url('/js/vendor/require.js') }}"></script>
         @else
            <script src="{{ Bust::url('/js/main.js') }}"></script>
-        @endif
+        @endif-->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

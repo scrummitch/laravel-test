@@ -226,16 +226,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v4.1.16",
+            "version": "v4.1.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "99a342124cb1003ef4eee36aad8f50fb7ef36e7e"
+                "reference": "97f5fece6ce23a25581dde2a28f4ffc175405022"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/99a342124cb1003ef4eee36aad8f50fb7ef36e7e",
-                "reference": "99a342124cb1003ef4eee36aad8f50fb7ef36e7e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/97f5fece6ce23a25581dde2a28f4ffc175405022",
+                "reference": "97f5fece6ce23a25581dde2a28f4ffc175405022",
                 "shasum": ""
             },
             "require": {
@@ -339,7 +339,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2014-01-13 19:40:50"
+            "time": "2014-01-16 04:17:29"
         },
         {
             "name": "monolog/monolog",
@@ -1564,12 +1564,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TheMonkeys/laravel-cachebuster.git",
-                "reference": "1abc341afe26755d3d94a9177dcb2367024e73cb"
+                "reference": "ed79e80aa2ce441ceb9756cd0253dfbbe013f92c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TheMonkeys/laravel-cachebuster/zipball/1abc341afe26755d3d94a9177dcb2367024e73cb",
-                "reference": "1abc341afe26755d3d94a9177dcb2367024e73cb",
+                "url": "https://api.github.com/repos/TheMonkeys/laravel-cachebuster/zipball/ed79e80aa2ce441ceb9756cd0253dfbbe013f92c",
+                "reference": "ed79e80aa2ce441ceb9756cd0253dfbbe013f92c",
                 "shasum": ""
             },
             "require": {
@@ -1604,7 +1604,7 @@
                 "cdn",
                 "laravel"
             ],
-            "time": "2014-01-09 23:33:45"
+            "time": "2014-01-16 03:30:33"
         }
     ],
     "packages-dev": [
